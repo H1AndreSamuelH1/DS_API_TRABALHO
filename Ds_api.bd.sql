@@ -46,3 +46,5 @@ CREATE TABLE pedidos_produtos (
     FOREIGN KEY (pedido_id) REFERENCES pedidos(id),
     FOREIGN KEY (produto_id) REFERENCES produtos(id)
 );
+
+INSERT INTO cidades (nome) VALUES ('Porto Alegre');
